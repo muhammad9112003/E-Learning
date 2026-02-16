@@ -1321,10 +1321,10 @@
     .section1 {
         flex-direction: column;
         padding: 2rem 1.5rem;
+        min-height: auto;
         text-align: center;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
-        height: 100vh;
     }
     .section1 .right {
         order: 1;
@@ -1478,7 +1478,7 @@
         letter-spacing: 0.5px;
     }
     .section1 .left .imgContainer {
-        height: 400px;
+        height: 280px;
     }
     .Join {
         width: 110px;
