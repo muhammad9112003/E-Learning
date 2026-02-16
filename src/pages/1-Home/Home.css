@@ -1526,7 +1526,7 @@ RESPONSIVE DESIGN - SMALL MOBILE (480px and below)
 
     .section1 .right {
         order: 1;
-        margin-bottom: 2rem;
+        margin-bottom: 0rem;
         margin-top: 1rem;
 
         .section1 h3 {
