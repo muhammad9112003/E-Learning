@@ -1,14 +1,17 @@
 /* ============================================
    GLOBAL STYLES
    ============================================ */
+
 .homeContainer {
     background: #F7F7F7;
     overflow-x: hidden;
 }
 
+
 /* ============================================
    SECTION 1 - HERO SECTION
    ============================================ */
+
 .section1 {
     display: flex;
     align-items: center;
@@ -99,7 +102,9 @@
     object-fit: fill;
 }
 
+
 /* Section 1 Cards */
+
 .card1 {
     background: #ffffff7c;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -250,9 +255,11 @@
     font-size: 0.9rem;
 }
 
+
 /* ============================================
    SECTION 2 - SUCCESS STATS
    ============================================ */
+
 .section2 {
     padding: 4rem;
     padding-bottom: 0;
@@ -317,9 +324,11 @@
     font-weight: 500;
 }
 
+
 /* ============================================
    SECTION 3 - FEATURES
    ============================================ */
+
 .section3 {
     padding: 4rem;
     padding-top: 1rem;
@@ -414,9 +423,11 @@
     width: fit-content;
 }
 
+
 /* ============================================
    SECTION 4 - WHAT IS LEARNOVA
    ============================================ */
+
 .section4 {
     padding: 4rem;
     display: flex;
@@ -503,9 +514,11 @@
     transform: scale(1.1);
 }
 
+
 /* ============================================
    SECTION 5 - EVERYTHING YOU CAN DO
    ============================================ */
+
 .section5 {
     padding: 4rem;
     padding-bottom: 2rem;
@@ -586,9 +599,11 @@
     object-fit: cover;
 }
 
+
 /* ============================================
    SECTION 6 - OUR FEATURES
    ============================================ */
+
 .section6 {
     padding: 4rem;
     display: flex;
@@ -781,9 +796,11 @@
     color: #FFF;
 }
 
+
 /* ============================================
    SECTION 7 - EXPLORE COURSE
    ============================================ */
+
 .section7 {
     background: #00bbd43f;
     padding: 60px;
@@ -870,9 +887,11 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+
 /* ============================================
    SECTION 8 - TESTIMONIALS
    ============================================ */
+
 .section8 {
     width: 70%;
     gap: 2rem;
@@ -1023,9 +1042,11 @@
     color: #696984;
 }
 
+
 /* ============================================
    SECTION 9 - NEWS AND RESOURCES
    ============================================ */
+
 .section9 {
     display: flex;
     align-items: center;
@@ -1152,81 +1173,69 @@
     text-align: left;
 }
 
+
 /* ============================================
    RESPONSIVE DESIGN - TABLET (1024px and below)
    ============================================ */
+
 @media (max-width: 1024px) {
     .section1 {
         padding: 3rem 2rem;
         min-height: 500px;
     }
-
     .section1 h3 {
         font-size: 1.75rem;
         max-width: 100%;
     }
-
     .section1 p {
         max-width: 100%;
     }
-
     .section1 .left .imgContainer {
         width: 400px;
         height: 450px;
         margin-right: 2rem;
     }
-
     .card1 {
         width: 250px;
         height: 120px;
         padding: 15px;
     }
-
     .card1:nth-child(2) {
         width: 200px;
     }
-
     .section2,
     .section3,
     .section4 {
         padding: 3rem 2rem;
     }
-
     .section2 p,
     .section3 p {
         width: 70%;
     }
-
     .section5 {
         padding: 3rem 2rem;
         flex-direction: column;
         align-items: center;
     }
-
     .section5 .left {
         max-width: 100%;
         margin-bottom: 2rem;
     }
-
     .section5 .right {
         width: 100%;
         max-width: 800px;
     }
-
     .section6 {
         padding: 3rem 2rem;
     }
-
     .feature {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-
     .feature:nth-child(even) {
         flex-direction: column-reverse;
     }
-
     .feature .left,
     .feature:nth-child(1) .left,
     .feature:nth-child(2) .left img,
@@ -1237,72 +1246,59 @@
         max-width: 600px;
         margin-right: 0;
     }
-
     .feature .right {
         align-items: center;
         text-align: center;
     }
-
     .feature .right h3 {
         text-align: center;
     }
-
     .feature .right .featuresContainer div {
         max-width: 100%;
         justify-content: center;
     }
-
     .section7 {
         width: 90%;
         padding: 40px 30px;
     }
-
     .section8 {
         width: 85%;
         flex-direction: column;
         align-items: center;
         min-height: auto;
     }
-
     .section8 .left {
         width: 100%;
         align-items: center;
         text-align: center;
     }
-
     .section8 .left .content {
         width: 100%;
         align-items: center;
     }
-
     .section8 .right {
         width: 100%;
         max-width: 400px;
         margin-right: 0;
     }
-
     .testimonial-card {
-        position: relative;
-        top: auto;
-        left: auto;
-        width: 100%;
-        margin-top: 2rem;
+        display: none;
     }
-
     .section9 .main {
         flex-direction: column;
         width: 100%;
     }
-
     .section9 .main .left,
     .section9 .main .right {
         max-width: 100%;
     }
 }
 
+
 /* ============================================
    RESPONSIVE DESIGN - MOBILE (768px and below)
    ============================================ */
+
 @media (max-width: 768px) {
     .section1 {
         flex-direction: column;
@@ -1310,357 +1306,283 @@
         min-height: auto;
         text-align: center;
     }
-
     .section1 .right {
         order: 1;
         margin-bottom: 2rem;
     }
-
     .section1 .left {
         order: 2;
         width: 100%;
     }
-
     .section1 .left .imgContainer {
         width: 100%;
         max-width: 400px;
         height: 350px;
         margin: 0 auto;
     }
-
     .section1 h3 {
         font-size: 1.5rem;
         width: 100%;
     }
-
     .section1 p {
         font-size: 0.9rem;
         width: 100%;
     }
-
     .joiningContainer {
         justify-content: center;
         margin-right: 0;
     }
-
     .Join {
         margin-right: 1rem;
     }
-
     /* Hide floating cards on mobile */
     .card1,
     .card2,
     .card3 {
         display: none;
     }
-
     .section2,
     .section3,
     .section4 {
         padding: 2rem 1.5rem;
     }
-
     .section2 h2,
     .section3 h2,
     .section4 h2 {
         font-size: 1.75rem;
     }
-
     .section2 p,
     .section3 p,
     .section4 p {
         width: 90%;
         font-size: 14px;
     }
-
     .nomsContainer {
         gap: 1.5rem;
     }
-
     .nomCard {
         width: 120px;
         height: 120px;
     }
-
     .nomCard h4 {
         font-size: 2.5rem;
     }
-
     .featureCard {
         width: 100%;
         max-width: 300px;
     }
-
     .imgsContainer {
         flex-direction: column;
         gap: 1.5rem;
     }
-
     .imgsContainer .img {
         width: 100%;
         max-width: 400px;
     }
-
     .section5 {
         padding: 2rem 1.5rem;
     }
-
     .section5 h2 {
         font-size: 1.75rem;
         width: 100%;
     }
-
     .section5 p {
         width: 100%;
     }
-
     .section5 .right {
         height: 250px;
     }
-
     .section6 {
         padding: 2rem 1.5rem;
     }
-
     .section6 h2 {
         font-size: 1.75rem;
     }
-
     .section6 .featuresContainer {
         margin-top: 3rem;
     }
-
     .feature .right h3 {
         font-size: 1.5rem;
     }
-
     .section7 {
         width: 95%;
         padding: 30px 20px;
     }
-
     .section7 h2 {
         font-size: 24px;
         margin-top: 2rem;
     }
-
     .courses {
         padding: 20px 20px;
     }
-
     .section8 {
         width: 95%;
         padding: 0 1rem;
     }
-
     .section8 .left h2 {
         font-size: 24px;
     }
-
     .section9 {
         padding: 0 1rem;
     }
-
     .section9 h2 {
         font-size: 24px;
     }
-
     .section9 .main {
         width: 100%;
     }
-
     .section9 .right .new {
         flex-direction: column;
     }
-
     .section9 .right img {
         width: 100%;
         height: 200px;
     }
 }
 
+
 /* ============================================
    RESPONSIVE DESIGN - SMALL MOBILE (480px and below)
    ============================================ */
+
 @media (max-width: 480px) {
     .section1 {
         padding: 1.5rem 1rem;
     }
-
     .section1 h3 {
         font-size: 1.25rem;
     }
-
     .section1 p {
         font-size: 0.85rem;
         letter-spacing: 0.5px;
     }
-
     .section1 .left .imgContainer {
         height: 280px;
     }
-
     .Join {
         width: 110px;
         height: 40px;
         font-size: 14px;
         margin-right: 0.5rem;
     }
-
     .playIcon {
         width: 35px;
         height: 35px;
     }
-
     .section2,
     .section3,
     .section4 {
         padding: 1.5rem 1rem;
     }
-
     .section2 h2,
     .section3 h2,
     .section4 h2 {
         font-size: 1.5rem;
     }
-
     .section2 p,
     .section3 p,
     .section4 p {
         width: 100%;
         font-size: 13px;
     }
-
     .nomsContainer {
         gap: 1rem;
     }
-
     .nomCard {
         width: 100px;
         height: 100px;
     }
-
     .nomCard h4 {
         font-size: 2rem;
     }
-
     .nomCard p {
         font-size: 12px;
     }
-
     .featureCard {
         padding: 15px;
         min-height: 280px;
     }
-
     .featureCard h4 {
         font-size: 1rem;
     }
-
     .featureCard p {
         font-size: 13px;
     }
-
     .section5 {
         padding: 1.5rem 1rem;
     }
-
     .section5 h2 {
         font-size: 1.5rem;
     }
-
     .section5 .right {
         height: 200px;
     }
-
     .section6 {
         padding: 1.5rem 1rem;
     }
-
     .section6 h2 {
         font-size: 1.5rem;
     }
-
     .feature .right h3 {
         font-size: 1.25rem;
     }
-
     .section7 {
         padding: 20px 15px;
     }
-
     .section7 h2 {
         font-size: 20px;
         margin-top: 1rem;
     }
-
     .courses {
         padding: 15px 10px;
         gap: 1rem;
     }
-
     .courseCard {
         width: 45px;
         height: 240px;
     }
-
     .courseInner {
         width: 35px;
         height: 200px;
     }
-
     .courseInner h3 {
         font-size: 12px;
     }
-
     .section8 .left h2 {
         font-size: 20px;
     }
-
     .section8 .left .content p {
         font-size: 14px;
     }
-
-    .testimonial-card {
-        padding: 20px 25px;
-    }
-
-    .testimonial-card .quote {
-        font-size: 14px;
-    }
-
     .section9 h2 {
         font-size: 20px;
     }
-
     .section9 .main .left .dis {
         font-size: 18px;
         width: 100%;
     }
-
     .section9 .main .left p {
         width: 100%;
     }
 }
 
+
 /* ============================================
    RESPONSIVE DESIGN - EXTRA SMALL (360px and below)
    ============================================ */
+
 @media (max-width: 360px) {
     .section1 h3 {
         font-size: 1.1rem;
     }
-
     .section1 p {
         font-size: 0.8rem;
     }
-
     .Join {
         width: 100px;
         height: 38px;
         font-size: 13px;
     }
-
     .section2 h2,
     .section3 h2,
     .section4 h2,
@@ -1668,20 +1590,16 @@
     .section6 h2 {
         font-size: 1.25rem;
     }
-
     .nomCard {
         width: 90px;
         height: 90px;
     }
-
     .nomCard h4 {
         font-size: 1.75rem;
     }
-
     .featureCard {
         padding: 12px;
     }
-
     .section7 h2,
     .section8 .left h2,
     .section9 h2 {
