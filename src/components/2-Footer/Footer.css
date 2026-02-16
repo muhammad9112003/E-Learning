@@ -8,7 +8,9 @@
     gap: 2rem;
 }
 
+
 /* ===== logo section ===== */
+
 .logoFoot {
     display: flex;
     align-items: center;
@@ -39,7 +41,9 @@
     max-width: 150px;
 }
 
+
 /* ===== newsletter section ===== */
+
 .searchNews {
     display: flex;
     align-items: center;
@@ -56,7 +60,9 @@
     letter-spacing: 0.7px;
 }
 
+
 /* ===== input ===== */
+
 .input {
     display: flex;
     gap: 0.5rem;
@@ -84,9 +90,11 @@
     width: 100px;
     transition: all 0.2s ease-in-out;
 }
+
 .subscribe:hover {
-box-shadow: #0d1053ec 0px 5px 15px; 
+    box-shadow: #0d1053ec 0px 5px 15px;
 }
+
 .privacy {
     width: 80%;
     display: flex;
@@ -97,6 +105,7 @@ box-shadow: #0d1053ec 0px 5px 15px;
     font-size: 14px;
     padding-top: 1rem;
 }
+
 .privacy .first {
     width: 100%;
     display: flex;
@@ -105,9 +114,10 @@ box-shadow: #0d1053ec 0px 5px 15px;
     align-items: center;
     margin-bottom: 2rem;
 }
+
 .privacy .first .break {
-        width: 1px;
-        height: 10px;
-        background-color: #626381;
-        margin: 0;
+    width: 1px;
+    height: 10px;
+    background-color: #626381;
+    margin: 0;
 }

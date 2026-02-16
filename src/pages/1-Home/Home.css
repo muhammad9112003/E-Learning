@@ -255,6 +255,15 @@
     font-size: 0.9rem;
 }
 
+.card4 {
+    position: absolute;
+    bottom: 60%;
+    left: -10%;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+
 
 /* ============================================
    SECTION 2 - SUCCESS STATS
@@ -1203,6 +1212,15 @@
     .card1:nth-child(2) {
         width: 200px;
     }
+    .card4 {
+        width: 100px;
+        height: 100px;
+        left: 5%;
+    }
+    .card4 Lottie {
+        width: 100px;
+        height: 100px;
+    }
     .section2,
     .section3,
     .section4 {
@@ -1303,8 +1321,10 @@
     .section1 {
         flex-direction: column;
         padding: 2rem 1.5rem;
-        min-height: auto;
         text-align: center;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        height: 100vh;
     }
     .section1 .right {
         order: 1;
@@ -1338,7 +1358,8 @@
     /* Hide floating cards on mobile */
     .card1,
     .card2,
-    .card3 {
+    .card3,
+    .card4 {
         display: none;
     }
     .section2,
@@ -1457,7 +1478,7 @@
         letter-spacing: 0.5px;
     }
     .section1 .left .imgContainer {
-        height: 280px;
+        height: 400px;
     }
     .Join {
         width: 110px;

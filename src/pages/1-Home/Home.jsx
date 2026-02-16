@@ -32,6 +32,8 @@ import img13 from "../../assets/img13.png";
 import img14 from "../../assets/img14.png";
 import img15 from "../../assets/img15.png";
 import img16 from "../../assets/img16.png";
+import Lottie from "lottie-react";
+import readingAnimation from "../../assets/animation/Reading.json";
 
 const Home = () => {
   const [numbers, setNumbers] = useState([
@@ -134,6 +136,10 @@ const Home = () => {
               <h4>250k</h4>
               <p>Assisted Student</p>
             </div>
+          </div>
+          <div className="card4">
+            <Lottie animationData={readingAnimation} loop={true} />
+
           </div>
 
         </div>
