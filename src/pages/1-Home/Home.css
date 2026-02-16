@@ -1,1725 +1,1725 @@
-                                        /* ============================================
-   GLOBAL STYLES
-   ============================================ */
-
-                                        .homeContainer {
-                                            background: #F7F7F7;
-                                            overflow-x: hidden;
-                                        }
-
-                                        /* ============================================
-   SECTION 1 - HERO SECTION
-   ============================================ */
-
-                                        .section1 {
-                                            display: flex;
-                                            align-items: center;
-                                            justify-content: space-between;
-                                            min-height: 600px;
-                                            padding: 4rem;
-                                            overflow: hidden;
-                                            background-color: #49BBBD;
-                                            border-bottom-left-radius: 50% 100px;
-                                            border-bottom-right-radius: 50% 100px;
-                                        }
-
-                                        .section1 h3 {
-                                            color: white;
-                                            font-size: 2rem;
-                                            margin-bottom: 1rem;
-                                            max-width: 400px;
-                                            line-height: 1.5;
-                                        }
-
-                                        .section1 p {
-                                            color: rgba(255, 255, 255, 0.7);
-                                            font-size: 1rem;
-                                            margin-bottom: 1rem;
-                                            max-width: 350px;
-                                            font-family: 'Nunito Sans', sans-serif;
-                                            line-height: 2;
-                                            letter-spacing: 1.3px;
-                                        }
-
-                                        .joiningContainer {
-                                            display: flex;
-                                            align-items: center;
-                                            margin-top: 2rem;
-                                            flex-wrap: wrap;
-                                            gap: 1rem;
-                                        }
-
-                                        .Join {
-                                            width: 130px;
-                                            height: 45px;
-                                            font-size: 16px;
-                                            border-radius: 20px;
-                                            cursor: pointer;
-                                            letter-spacing: 0.7px;
-                                            transition: all 0.3s ease;
-                                            background: #00e7cf;
-                                            border: none;
-                                            color: #ffffff;
-                                            margin-right: 2rem;
-                                        }
-
-                                        .Join:hover {
-                                            background: #f48c06;
-                                        }
-                                        .video {
-                                            display: flex;
-                                            align-items: center;
-                                        }
-
-                                        .playIcon {
-                                            width: 40px;
-                                            height: 40px;
-                                            border-radius: 50%;
-                                            color: #FFF;
-                                            display: flex;
-                                            align-items: center;
-                                            justify-content: center;
-                                            cursor: pointer;
-                                            transition: all 0.3s ease;
-                                            text-align: center;
-                                            margin-right: 0.4rem;
-                                        }
-
-                                        .playIcon:hover {
-                                            background: #f48c06;
-                                        }
-
-                                        .section1 .left {
-                                            position: relative;
-                                        }
-
-                                        .section1 .left .imgContainer {
-                                            height: 550px;
-                                            width: 500px;
-                                            margin-right: 5rem;
-                                        }
-
-                                        .section1 .left img {
-                                            width: 100%;
-                                            height: 100%;
-                                            object-fit: fill;
-                                        }
-
-                                        /* Section 1 Cards */
-
-                                        .card1 {
-                                            background: #ffffff7c;
-                                            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-                                            position: absolute;
-                                            top: 30%;
-                                            right: 80%;
-                                            padding: 20px;
-                                            border-radius: 15px;
-                                            width: 300px;
-                                            height: 150px;
-                                            display: flex;
-                                            flex-direction: column;
-                                            gap: 10px;
-                                        }
-
-                                        .card1:nth-child(2) {
-                                            background: #ffffff7c;
-                                            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-                                            position: absolute;
-                                            top: 50%;
-                                            right: 0%;
-                                            padding: 0px;
-                                            border-radius: 15px;
-                                            width: 250px;
-                                            height: 60px;
-                                        }
-
-                                        .card1 img {
-                                            width: 50px;
-                                            height: 50px;
-                                            border-radius: 50%;
-                                            margin-right: 1rem;
-                                        }
-
-                                        .card1 .txtContainer {
-                                            display: flex;
-                                        }
-
-                                        .txtContainer .txt {
-                                            display: flex;
-                                            flex-direction: column;
-                                            justify-content: center;
-                                        }
-
-                                        .specail .txtContainer .txt {
-                                            display: flex;
-                                            flex-direction: row;
-                                            justify-content: center;
-                                            padding: 10px;
-                                        }
-
-                                        .specail .txtContainer .txt p {
-                                            font-size: 10px;
-                                        }
-
-                                        .txtContainer .txt h4 {
-                                            color: #595959;
-                                        }
-
-                                        .txtContainer .txt p {
-                                            color: #8c8c8c;
-                                            margin-top: 0.1rem;
-                                        }
-
-                                        .card1 .JoinNow {
-                                            margin-top: 0.3rem;
-                                            width: 100px;
-                                            height: 35px;
-                                            border-radius: 20px;
-                                            border: none;
-                                            background: #D8587E;
-                                            color: #ffffff;
-                                            cursor: pointer;
-                                            transition: all 0.3s ease;
-                                        }
-
-                                        .card1 .JoinNow:hover {
-                                            background: #892e49;
-                                        }
-
-                                        .iconCard1 {
-                                            color: #FFF;
-                                            margin-right: 1rem;
-                                            display: inline;
-                                            background-color: #F25471;
-                                            padding: 4px;
-                                            font-size: 2.3rem;
-                                            border-radius: 20%;
-                                        }
-
-                                        .card2 {
-                                            background: #F25471;
-                                            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-                                            position: absolute;
-                                            top: 20%;
-                                            left: 60%;
-                                            padding: 20px;
-                                            border-radius: 15px;
-                                            width: 60px;
-                                            height: 60px;
-                                            display: flex;
-                                            align-items: center;
-                                            justify-content: center;
-                                            font-size: 50px;
-                                            color: #FFFF;
-                                            cursor: pointer;
-                                            transition: all 0.3s ease;
-                                        }
-
-                                        .card2:hover {
-                                            background: #892e49;
-                                        }
-
-                                        .card3 {
-                                            background: #f48d06c5;
-                                            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-                                            position: absolute;
-                                            bottom: 20%;
-                                            left: 10%;
-                                            border-radius: 15px;
-                                            width: fit-content;
-                                            height: 80px;
-                                            display: flex;
-                                            justify-content: center;
-                                            gap: 1rem;
-                                            transition: all 0.3s ease;
-                                            padding: 20px;
-                                        }
-
-                                        .card3 .icon {
-                                            font-size: 40px;
-                                            color: #FFF;
-                                        }
-
-                                        .card3 .txt {
-                                            display: flex;
-                                            flex-direction: column;
-                                        }
-
-                                        .card3 .txt h4 {
-                                            color: #FFF;
-                                        }
-
-                                        .card3 .txt p {
-                                            color: #ffffffb8;
-                                            margin-top: 0.1rem;
-                                            width: 140px;
-                                            font-size: 0.9rem;
-                                        }
-
-                                        .card4 {
-                                            position: absolute;
-                                            bottom: 60%;
-                                            left: -10%;
-                                            border-radius: 15px;
-                                            width: 200px;
-                                            height: 200px;
-                                        }
-
-                                        /* ============================================
-   SECTION 2 - SUCCESS STATS
-   ============================================ */
-
-                                        .section2 {
-                                            padding: 4rem;
-                                            padding-bottom: 0;
-                                            display: flex;
-                                            flex-direction: column;
-                                            align-items: center;
-                                            justify-content: center;
-                                        }
-
-                                        .section2 h2 {
-                                            color: #000000d1;
-                                            font-size: 2rem;
-                                            margin-bottom: 1rem;
-                                            width: fit-content;
-                                            text-align: center;
-                                            font-weight: 900;
-                                        }
-
-                                        .section2 p {
-                                            color: #33333387;
-                                            font-size: 14px;
-                                            margin-bottom: 1rem;
-                                            width: 50%;
-                                            margin-top: 0.4rem;
-                                            text-align: center;
-                                            line-height: 1.8;
-                                        }
-
-                                        .nomsContainer {
-                                            display: flex;
-                                            align-items: center;
-                                            justify-content: center;
-                                            margin-top: 2rem;
-                                            gap: 2rem;
-                                            flex-wrap: wrap;
-                                        }
-
-                                        .nomCard {
-                                            width: 150px;
-                                            height: 150px;
-                                            display: flex;
-                                            flex-direction: column;
-                                            align-items: center;
-                                            justify-content: center;
-                                        }
-
-                                        .nomCard h4 {
-                                            background: linear-gradient(to right, #136CB5, #49BBBD);
-                                            background-clip: text;
-                                            -webkit-background-clip: text;
-                                            color: transparent;
-                                            -webkit-text-fill-color: transparent;
-                                            font-size: 3rem;
-                                            font-weight: 100;
-                                        }
-
-                                        .nomCard p {
-                                            margin-top: 0;
-                                            color: #000000b9;
-                                            font-size: 14px;
-                                            width: fit-content;
-                                            font-weight: 500;
-                                        }
-
-                                        /* ============================================
-   SECTION 3 - FEATURES
-   ============================================ */
-
-                                        .section3 {
-                                            padding: 4rem;
-                                            padding-top: 1rem;
-                                            display: flex;
-                                            flex-direction: column;
-                                            align-items: center;
-                                            justify-content: center;
-                                            text-align: center;
-                                        }
-
-                                        .section3 h2 {
-                                            font-size: 2rem;
-                                            margin-bottom: 1rem;
-                                            width: fit-content;
-                                            font-weight: 900;
-                                            color: #2F327D;
-                                        }
-
-                                        .section3 p {
-                                            color: #33333387;
-                                            font-size: 16px;
-                                            margin-bottom: 1rem;
-                                            width: 50%;
-                                            margin-top: 0.4rem;
-                                            line-height: 1.8;
-                                        }
-
-                                        .featuresContainer {
-                                            display: flex;
-                                            align-items: center;
-                                            justify-content: center;
-                                            margin-top: 2rem;
-                                            gap: 2rem;
-                                            flex-wrap: wrap;
-                                        }
-
-                                        .featureCard {
-                                            background: #FFFFFF;
-                                            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-                                            width: 250px;
-                                            min-height: 300px;
-                                            border-radius: 15px;
-                                            padding: 20px;
-                                            display: flex;
-                                            flex-direction: column;
-                                            align-items: center;
-                                            text-align: center;
-                                            transition: all 0.3s ease;
-                                        }
-
-                                        .featureCard:hover {
-                                            box-shadow: rgba(99, 99, 99, 0.4) 0px 4px 16px 0px;
-                                            transform: translateY(-5px);
-                                        }
-
-                                        .featureCard .iconContainer {
-                                            font-size: 50px;
-                                            color: #FFFFFF;
-                                            margin-bottom: 2rem;
-                                            background-color: #5B72EE;
-                                            width: 60px;
-                                            height: 60px;
-                                            display: flex;
-                                            align-items: center;
-                                            justify-content: center;
-                                            padding: 1rem;
-                                            border-radius: 50%;
-                                        }
-
-                                        .featureCard:nth-child(1) .iconContainer {
-                                            background-color: #49BBBD;
-                                        }
-
-                                        .featureCard:nth-child(2) .iconContainer {
-                                            background-color: #F48C06;
-                                        }
-
-                                        .featureCard:nth-child(3) .iconContainer {
-                                            background-color: #5B72EE;
-                                        }
-
-                                        .featureCard h4 {
-                                            color: #2F327D;
-                                            font-size: 1.2rem;
-                                            margin-bottom: 0.5rem;
-                                        }
-
-                                        .featureCard p {
-                                            color: #696984;
-                                            font-size: 14px;
-                                            line-height: 1.6;
-                                            width: fit-content;
-                                        }
-
-                                        /* ============================================
-   SECTION 4 - WHAT IS LEARNOVA
-   ============================================ */
-
-                                        .section4 {
-                                            padding: 4rem;
-                                            display: flex;
-                                            flex-direction: column;
-                                            align-items: center;
-                                            justify-content: center;
-                                            text-align: center;
-                                        }
-
-                                        .section4 h2 {
-                                            font-size: 2rem;
-                                            margin-bottom: 1rem;
-                                            width: fit-content;
-                                            font-weight: 900;
-                                            color: #2F327D;
-                                        }
-
-                                        .section4 p {
-                                            color: #33333387;
-                                            font-size: 16px;
-                                            margin-bottom: 1rem;
-                                            width: 70%;
-                                            margin-top: 0.4rem;
-                                            line-height: 1.8;
-                                        }
-
-                                        .imgsContainer {
-                                            display: flex;
-                                            align-items: center;
-                                            justify-content: center;
-                                            gap: 2rem;
-                                            margin-top: 2rem;
-                                            flex-wrap: wrap;
-                                        }
-
-                                        .imgsContainer .img {
-                                            width: 400px;
-                                            height: 300px;
-                                            border-radius: 10px;
-                                            overflow: hidden;
-                                            position: relative;
-                                        }
-
-                                        .imgsContainer .img img {
-                                            width: 100%;
-                                            height: 100%;
-                                            object-fit: cover;
-                                            transition: all 0.3s ease;
-                                        }
-
-                                        .imgsContainer .img h5 {
-                                            position: absolute;
-                                            bottom: 10px;
-                                            left: 10px;
-                                            color: #FFF;
-                                            background: rgba(0, 0, 0, 0.5);
-                                            padding: 5px 10px;
-                                            border-radius: 5px;
-                                            z-index: 2;
-                                        }
-
-                                        .imgsContainer .img button {
-                                            position: absolute;
-                                            top: 50%;
-                                            left: 50%;
-                                            transform: translate(-50%, -50%);
-                                            background: #49bbbdac;
-                                            border: none;
-                                            color: #FFF;
-                                            width: 150px;
-                                            height: 50px;
-                                            padding: 5px 10px;
-                                            border-radius: 15px;
-                                            cursor: pointer;
-                                            transition: all 0.3s ease;
-                                            z-index: 10;
-                                        }
-
-                                        .imgsContainer .img button:hover {
-                                            background: #f48c06;
-                                        }
-
-                                        .imgsContainer .img:hover img {
-                                            transform: scale(1.1);
-                                        }
-
-                                        /* ============================================
-   SECTION 5 - EVERYTHING YOU CAN DO
-   ============================================ */
-
-                                        .section5 {
-                                            padding: 4rem;
-                                            padding-bottom: 2rem;
-                                            display: flex;
-                                            align-items: start;
-                                            justify-content: center;
-                                            gap: 2rem;
-                                        }
-
-                                        .section5 .left {
-                                            flex: 1;
-                                            max-width: 600px;
-                                        }
-
-                                        .section5 h2 {
-                                            font-size: 2rem;
-                                            margin-bottom: 1.6rem;
-                                            width: fit-content;
-                                            font-weight: 900;
-                                            color: #2F327D;
-                                            text-align: left;
-                                        }
-
-                                        .section5 p {
-                                            color: #33333387;
-                                            font-size: 16px;
-                                            margin-bottom: 1rem;
-                                            width: 80%;
-                                            margin-top: 0.4rem;
-                                            line-height: 1.8;
-                                            text-align: left;
-                                        }
-
-                                        .section5 .learnMore {
-                                            color: #49BBBD;
-                                            font-weight: 600;
-                                            cursor: pointer;
-                                            text-transform: uppercase;
-                                            font-size: 12px;
-                                        }
-
-                                        .section5 .right {
-                                            width: 800px;
-                                            height: 300px;
-                                            position: relative;
-                                            z-index: 2;
-                                            flex-shrink: 0;
-                                        }
-
-                                        .section5 .right::after {
-                                            content: "";
-                                            position: absolute;
-                                            width: 80px;
-                                            height: 80px;
-                                            border-radius: 8px;
-                                            top: -10px;
-                                            left: -10px;
-                                            z-index: -1;
-                                            background-color: #23BDEE;
-                                        }
-
-                                        .section5 .right::before {
-                                            content: "";
-                                            position: absolute;
-                                            width: 100px;
-                                            height: 100px;
-                                            border-radius: 8px;
-                                            bottom: -20px;
-                                            right: -20px;
-                                            z-index: -1;
-                                            background-color: #33EFA0;
-                                        }
-
-                                        .section5 .right img {
-                                            width: 100%;
-                                            height: 100%;
-                                            border-radius: 10px;
-                                            object-fit: cover;
-                                        }
-
-                                        /* ============================================
-   SECTION 6 - OUR FEATURES
-   ============================================ */
-
-                                        .section6 {
-                                            padding: 4rem;
-                                            display: flex;
-                                            flex-direction: column;
-                                            align-items: center;
-                                            justify-content: center;
-                                            text-align: center;
-                                        }
-
-                                        .section6 h2 {
-                                            font-size: 2rem;
-                                            margin-bottom: 0.6rem;
-                                            width: fit-content;
-                                            font-weight: 900;
-                                            color: #2F327D;
-                                        }
-
-                                        .section6 p {
-                                            color: #33333387;
-                                            font-size: 14px;
-                                            margin-bottom: 0.6rem;
-                                            width: 100%;
-                                            margin-top: 0.4rem;
-                                            line-height: 1.8;
-                                        }
-
-                                        .section6 .featuresContainer {
-                                            display: flex;
-                                            align-items: center;
-                                            justify-content: center;
-                                            flex-direction: column;
-                                            margin-top: 8rem;
-                                            gap: 1.7rem;
-                                            flex-wrap: wrap;
-                                        }
-
-                                        .feature {
-                                            display: flex;
-                                            align-items: start;
-                                            justify-content: space-between;
-                                            gap: 2rem;
-                                            margin-bottom: 2rem;
-                                            width: 100%;
-                                            max-width: 1200px;
-                                        }
-
-                                        .feature:nth-child(1) .left {
-                                            width: 700px;
-                                            height: 350px;
-                                            border-radius: 10px;
-                                            overflow: hidden;
-                                            margin-right: 3rem;
-                                            flex-shrink: 0;
-                                        }
-
-                                        .feature .left {
-                                            flex-shrink: 0;
-                                        }
-
-                                        .feature .left img {
-                                            width: 100%;
-                                            height: 100%;
-                                            object-fit: cover;
-                                        }
-
-                                        .feature .right {
-                                            display: flex;
-                                            flex-direction: column;
-                                            align-items: flex-start;
-                                            justify-content: center;
-                                            flex: 1;
-                                        }
-
-                                        .feature .right h3 {
-                                            color: #2F327D;
-                                            font-size: 1.8rem;
-                                            margin-bottom: 1rem;
-                                            text-align: left;
-                                        }
-
-                                        .feature .right .featuresContainer {
-                                            display: flex;
-                                            flex-direction: column;
-                                            gap: 1.5rem;
-                                            margin-top: 1rem;
-                                            color: #33333387;
-                                        }
-
-                                        .feature .right .featuresContainer div {
-                                            max-width: 400px;
-                                            text-align: left;
-                                            display: flex;
-                                            align-items: start;
-                                            justify-content: flex-start;
-                                            gap: 10px;
-                                        }
-
-                                        .feature .right .featuresContainer div span {
-                                            font-size: 30px;
-                                            color: #2F327D;
-                                            border-radius: 50%;
-                                            background-color: #ebebeb;
-                                            padding: 0.3rem;
-                                            display: flex;
-                                            align-items: center;
-                                            justify-content: center;
-                                            box-shadow: rgba(99, 99, 99, 0.469) 0px 2px 8px 0px;
-                                            flex-shrink: 0;
-                                        }
-
-                                        .feature .right .featuresContainer div:nth-child(2) span {
-                                            color: #49BBBD;
-                                        }
-
-                                        .feature .right .featuresContainer div:nth-child(3) span {
-                                            color: #F48C06;
-                                        }
-
-                                        .feature:nth-child(2) .left img {
-                                            width: 400px;
-                                            border-radius: 10px;
-                                            height: 250px;
-                                        }
-
-                                        .feature:nth-child(2) .featuresContainer div {
-                                            max-width: 500px;
-                                            line-height: 1.7;
-                                        }
-
-                                        .feature:nth-child(3) .left img {
-                                            width: 600px;
-                                            border-radius: 10px;
-                                            height: 300px;
-                                        }
-
-                                        .feature:nth-child(3) h3 {
-                                            max-width: 300px;
-                                            line-height: 1.7;
-                                        }
-
-                                        .feature:nth-child(4) .left img {
-                                            width: 600px;
-                                            border-radius: 10px;
-                                            height: 300px;
-                                        }
-
-                                        .feature:nth-child(4) h3 {
-                                            max-width: 300px;
-                                            line-height: 1.7;
-                                        }
-
-                                        .feature:nth-child(4) .featuresContainer div {
-                                            max-width: 400px;
-                                            line-height: 1.7;
-                                        }
-
-                                        .feature:nth-child(5) .left img {
-                                            width: 600px;
-                                            border-radius: 10px;
-                                            height: 300px;
-                                        }
-
-                                        .feature:nth-child(5) h3 {
-                                            max-width: 300px;
-                                            line-height: 1.7;
-                                        }
-
-                                        .feature:nth-child(5) .featuresContainer div {
-                                            max-width: 400px;
-                                            line-height: 1.7;
-                                            margin-bottom: 0;
-                                        }
-
-                                        .section6 .featuresContainer .seeMore {
-                                            color: #49BBBD;
-                                            font-weight: 200;
-                                            cursor: pointer;
-                                            text-transform: uppercase;
-                                            font-size: 12px;
-                                            margin-top: 2rem;
-                                            padding: 10px 25px;
-                                            border: 1px solid #49BBBD;
-                                            background-color: #FFF;
-                                            border-radius: 20px;
-                                            transition: all 0.3s ease;
-                                        }
-
-                                        .section6 .featuresContainer .seeMore:hover {
-                                            background-color: #49BBBD;
-                                            color: #FFF;
-                                        }
-
-                                        /* ============================================
-   SECTION 7 - EXPLORE COURSE
-   ============================================ */
-
-                                        .section7 {
-                                            background: #00bbd43f;
-                                            padding: 60px;
-                                            width: 80%;
-                                            /* margin: 0 auto; */
-                                        }
-
-                                        .section7 h2 {
-                                            font-size: 28px;
-                                            margin-top: 5rem;
-                                            margin-bottom: 1rem;
-                                        }
-
-                                        .section7 p {
-                                            color: #777;
-                                            margin-bottom: 5rem;
-                                            font-size: 14px;
-                                            font-weight: 600;
-                                        }
-
-                                        .courses {
-                                            display: flex;
-                                            gap: 2rem;
-                                            overflow-x: auto;
-                                            padding: 20px 60px;
-                                            justify-content: start;
-                                            scroll-behavior: smooth;
-                                        }
-
-                                        .courses::-webkit-scrollbar {
-                                            display: none;
-                                        }
-
-                                        .courseCard {
-                                            width: 50px;
-                                            height: 260px;
-                                            background: #e6f7c9;
-                                            border-radius: 15px;
-                                            display: flex;
-                                            justify-content: center;
-                                            align-items: center;
-                                            transform: rotate(-10deg);
-                                            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-                                            transition-duration: 0.3s;
-                                            cursor: pointer;
-                                            flex-shrink: 0;
-                                        }
-
-                                        .courseInner {
-                                            width: 40px;
-                                            height: 220px;
-                                            border-radius: 12px;
-                                            display: flex;
-                                            justify-content: center;
-                                            align-items: center;
-                                        }
-
-                                        .courseInner h3 {
-                                            color: #fff;
-                                            font-size: 14px;
-                                            writing-mode: vertical-lr;
-                                            text-align: center;
-                                        }
-
-                                        .courseCard:hover {
-                                            transform: rotate(0deg) scale(1.05);
-                                        }
-
-                                        .section7 .icon {
-                                            display: flex;
-                                            gap: 0.2rem;
-                                            font-size: 1.3rem;
-                                            height: 40px;
-                                            align-items: center;
-                                        }
-
-                                        .section7 .icon p {
-                                            font-size: 1rem;
-                                            color: black;
-                                            margin: 0;
-                                        }
-
-                                        .section7 .icon div {
-                                            color: rgba(0, 0, 0, 0.5);
-                                        }
-
-                                        /* ============================================
-   SECTION 8 - TESTIMONIALS
-   ============================================ */
-
-                                        .section8 {
-                                            width: 70%;
-                                            gap: 2rem;
-                                            margin-top: 4rem;
-                                            display: flex;
-                                            justify-content: center;
-                                            margin-inline: auto;
-                                            min-height: 100vh;
-                                            margin-bottom: 2rem;
-                                        }
-
-                                        .section8 .left {
-                                            display: flex;
-                                            flex-direction: column;
-                                            align-items: flex-start;
-                                            color: #525596;
-                                            gap: 2rem;
-                                            width: 45%;
-                                        }
-
-                                        .section8 .left p {
-                                            font-weight: 100;
-                                            font-size: 14px;
-                                        }
-
-                                        .section8 .left h2 {
-                                            font-weight: 700;
-                                            font-size: 28px;
-                                            color: #2F327D;
-                                        }
-
-                                        .section8 .left .content {
-                                            color: #696984;
-                                            width: 80%;
-                                            display: flex;
-                                            flex-direction: column;
-                                            gap: 1.5rem;
-                                        }
-
-                                        .section8 .left .content p {
-                                            font-size: 1rem;
-                                            font-weight: 500;
-                                        }
-
-                                        .section8 .btn-testimonial {
-                                            background-color: transparent;
-                                            border-radius: 50px;
-                                            border: 1px solid #49BBBD;
-                                            color: #49BBBD;
-                                            cursor: pointer;
-                                            transition: 0.3s;
-                                            display: flex;
-                                            align-items: center;
-                                            justify-content: space-between;
-                                            gap: 1rem;
-                                            width: fit-content;
-                                            padding: 0px 0px 0px 20px;
-                                            font-weight: 100;
-                                        }
-
-                                        .section8 .btn-testimonial .icon {
-                                            width: 40px;
-                                            height: 40px;
-                                            border: 1px solid #49BBBD;
-                                            border-radius: 50%;
-                                            display: flex;
-                                            align-items: center;
-                                            justify-content: center;
-                                        }
-
-                                        .section8 .btn-testimonial:hover {
-                                            background-color: #49BBBD;
-                                            color: #fff;
-                                        }
-
-                                        .section8 .btn-testimonial:hover .icon {
-                                            border-color: #fff;
-                                        }
-
-                                        .section8 .right {
-                                            width: 400px;
-                                            height: 500px;
-                                            position: relative;
-                                            margin-right: 3rem;
-                                            flex-shrink: 0;
-                                        }
-
-                                        .section8 img {
-                                            width: 100%;
-                                            height: 100%;
-                                            object-fit: cover;
-                                        }
-
-                                        .testimonial-card {
-                                            position: absolute;
-                                            top: 70%;
-                                            left: 20%;
-                                            background: #fff;
-                                            padding: 30px 35px;
-                                            width: 450px;
-                                            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
-                                            border-radius: 5px;
-                                        }
-
-                                        .testimonial-card::before {
-                                            content: "";
-                                            position: absolute;
-                                            left: 0px;
-                                            top: 0px;
-                                            width: 8px;
-                                            height: 100%;
-                                            background: linear-gradient(to bottom, #ff7a59, #49bbbd);
-                                            border-top-left-radius: 5px;
-                                            border-bottom-left-radius: 5px;
-                                        }
-
-                                        .testimonial-card .quote {
-                                            color: #696984;
-                                            font-size: 16px;
-                                            line-height: 1.8;
-                                            margin-bottom: 25px;
-                                        }
-
-                                        .card-footer {
-                                            display: flex;
-                                            justify-content: space-between;
-                                            align-items: center;
-                                            flex-wrap: wrap;
-                                            gap: 1rem;
-                                        }
-
-                                        .card-footer h4 {
-                                            color: #2f327d;
-                                            font-weight: 600;
-                                        }
-
-                                        .rating {
-                                            text-align: right;
-                                        }
-
-                                        .stars {
-                                            color: #f9b233;
-                                            font-size: 18px;
-                                        }
-
-                                        .rating span {
-                                            font-size: 13px;
-                                            color: #696984;
-                                        }
-
-                                        /* ============================================
-   SECTION 9 - NEWS AND RESOURCES
-   ============================================ */
-
-                                        .section9 {
-                                            display: flex;
-                                            align-items: center;
-                                            justify-content: center;
-                                            flex-direction: column;
-                                            margin-top: 5rem;
-                                            margin-bottom: 5rem;
-                                            padding: 0 2rem;
-                                        }
-
-                                        .section9 h2 {
-                                            color: #2F327D;
-                                            font-weight: 700;
-                                            margin-bottom: 1rem;
-                                            text-align: center;
-                                        }
-
-                                        .section9 p {
-                                            color: #696984;
-                                            font-weight: 200;
-                                            text-align: center;
-                                        }
-
-                                        .section9 .main {
-                                            display: flex;
-                                            margin-top: 3rem;
-                                            width: 85%;
-                                            justify-content: center;
-                                            gap: 2rem;
-                                        }
-
-                                        .section9 .main .left {
-                                            flex: 1;
-                                            max-width: 500px;
-                                        }
-
-                                        .section9 .main .left .imgContainer {
-                                            width: 100%;
-                                            height: 300px;
-                                        }
-
-                                        .section9 .main .left .imgContainer img {
-                                            width: 100%;
-                                            height: 100%;
-                                            object-fit: cover;
-                                        }
-
-                                        .section9 .main .left .news {
-                                            padding: 10px 30px;
-                                            margin-top: 1rem;
-                                            margin-bottom: 1rem;
-                                            background-color: #49BBBD;
-                                            color: #FFFF;
-                                            border: none;
-                                            border-radius: 20px;
-                                            cursor: pointer;
-                                            transition-duration: 0.2s;
-                                        }
-
-                                        .section9 .main .left .news:hover {
-                                            background: #389091;
-                                        }
-
-                                        .section9 .main .left .dis {
-                                            color: #252641;
-                                            font-weight: 600;
-                                            width: 80%;
-                                            margin-bottom: 1rem;
-                                            font-size: 22px;
-                                        }
-
-                                        .section9 .main .left p {
-                                            width: 70%;
-                                            line-height: 1.5;
-                                            font-size: 14px;
-                                            text-align: left;
-                                        }
-
-                                        .section9 .main .left .read {
-                                            all: unset;
-                                            background-color: transparent;
-                                            width: fit-content;
-                                            height: fit-content;
-                                            color: #696984;
-                                            margin-top: 1rem;
-                                            cursor: pointer;
-                                            font-size: 14px;
-                                        }
-
-                                        .section9 .right {
-                                            display: flex;
-                                            gap: 1.7rem;
-                                            flex-direction: column;
-                                            flex: 1;
-                                            max-width: 500px;
-                                        }
-
-                                        .section9 .right .new {
-                                            display: flex;
-                                            gap: 1.5rem;
-                                        }
-
-                                        .section9 .right img {
-                                            width: 200px;
-                                            height: 150px;
-                                            object-fit: cover;
-                                            flex-shrink: 0;
-                                        }
-
-                                        .section9 .right .new .content {
-                                            display: flex;
-                                            flex-direction: column;
-                                        }
-
-                                        .section9 .right .new .dis {
-                                            width: 100%;
-                                            margin-bottom: 1rem;
-                                            color: #252641;
-                                            font-size: 16px;
-                                        }
-
-                                        .section9 .right p {
-                                            font-size: 14px;
-                                            text-align: left;
-                                        }
-
-                                        /* ============================================
-   RESPONSIVE DESIGN - TABLET (1024px and below)
-   ============================================ */
-
-                                        @media (max-width: 1024px) {
-                                            .section1 {
-                                                padding: 3rem 2rem;
-                                                min-height: 500px;
-                                            }
-
-                                            .section1 h3 {
-                                                font-size: 1.75rem;
-                                                max-width: 100%;
-                                            }
-
-                                            .section1 p {
-                                                max-width: 100%;
-                                            }
-
-                                            .section1 .left .imgContainer {
-                                                width: 400px;
-                                                height: 450px;
-                                                margin-right: 2rem;
-                                            }
-
-                                            .card1 {
-                                                width: 250px;
-                                                height: 120px;
-                                                padding: 15px;
-                                            }
-
-                                            .card1:nth-child(2) {
-                                                width: 200px;
-                                            }
-
-                                            .card4 {
-                                                width: 100px;
-                                                height: 100px;
-                                                left: 5%;
-                                            }
-
-                                            .card4 Lottie {
-                                                width: 100px;
-                                                height: 100px;
-                                            }
-
-                                            .section2,
-                                            .section3,
-                                            .section4 {
-                                                padding: 3rem 2rem;
-                                            }
-
-                                            .section2 p,
-                                            .section3 p {
-                                                width: 70%;
-                                            }
-
-                                            .section5 {
-                                                padding: 3rem 2rem;
-                                                flex-direction: column;
-                                                align-items: center;
-                                            }
-
-                                            .section5 .left {
-                                                max-width: 100%;
-                                                margin-bottom: 2rem;
-                                            }
-
-                                            .section5 .right {
-                                                width: 100%;
-                                                max-width: 800px;
-                                            }
-
-                                            .section6 {
-                                                padding: 3rem 2rem;
-                                            }
-
-                                            .feature {
-                                                flex-direction: column;
-                                                align-items: center;
-                                                text-align: center;
-                                            }
-
-                                            .feature:nth-child(even) {
-                                                flex-direction: column-reverse;
-                                            }
-
-                                            .feature .left,
-                                            .feature:nth-child(1) .left,
-                                            .feature:nth-child(2) .left img,
-                                            .feature:nth-child(3) .left img,
-                                            .feature:nth-child(4) .left img,
-                                            .feature:nth-child(5) .left img {
-                                                width: 100%;
-                                                max-width: 600px;
-                                                margin-right: 0;
-                                            }
-
-                                            .feature .right {
-                                                align-items: center;
-                                                text-align: center;
-                                            }
-
-                                            .feature .right h3 {
-                                                text-align: center;
-                                            }
-
-                                            .feature .right .featuresContainer div {
-                                                max-width: 100%;
-                                                justify-content: center;
-                                            }
-
-                                            .section7 {
-                                                width: 90%;
-                                                padding: 40px 30px;
-                                            }
-
-                                            .section8 {
-                                                width: 85%;
-                                                flex-direction: column;
-                                                align-items: center;
-                                                min-height: auto;
-                                            }
-
-                                            .section8 .left {
-                                                width: 100%;
-                                                align-items: center;
-                                                text-align: center;
-                                            }
-
-                                            .section8 .left .content {
-                                                width: 100%;
-                                                align-items: center;
-                                            }
-
-                                            .section8 .right {
-                                                width: 100%;
-                                                max-width: 400px;
-                                                margin-right: 0;
-                                            }
-
-                                            .testimonial-card {
-                                                display: none;
-                                            }
-
-                                            .section9 .main {
-                                                flex-direction: column;
-                                                width: 100%;
-                                            }
-
-                                            .section9 .main .left,
-                                            .section9 .main .right {
-                                                max-width: 100%;
-                                            }
-                                        }
-
-                                        /* ============================================
-   RESPONSIVE DESIGN - MOBILE (768px and below)
-   ============================================ */
-
-                                        @media (max-width: 768px) {
-                                            .section1 {
-                                                flex-direction: column;
-                                                padding: 2rem 1.5rem;
-                                                min-height: auto;
-                                                text-align: center;
-                                                border-bottom-left-radius: 0;
-                                                border-bottom-right-radius: 0;
-                                            }
-
-                                            .section1 .right {
-                                                order: 1;
-                                                margin-bottom: 2rem;
-                                            }
-
-                                            .section1 .left {
-                                                order: 2;
-                                                width: 100%;
-                                            }
-
-                                            .section1 .left .imgContainer {
-                                                width: 100%;
-                                                max-width: 400px;
-                                                height: 350px;
-                                                margin: 0 auto;
-                                            }
-
-                                            .section1 h3 {
-                                                font-size: 1.5rem;
-                                                width: 100%;
-                                            }
-
-                                            .section1 p {
-                                                font-size: 0.9rem;
-                                                width: 100%;
-                                            }
-
-                                            .joiningContainer {
-                                                justify-content: center;
-                                                margin-right: 0;
-                                            }
-
-                                            .Join {
-                                                margin-right: 1rem;
-                                            }
-
-                                            /* Hide floating cards on mobile */
-                                            .card1,
-                                            .card2,
-                                            .card3,
-                                            .card4 {
-                                                display: none;
-                                            }
-
-                                            .section2,
-                                            .section3,
-                                            .section4 {
-                                                padding: 2rem 1.5rem;
-                                            }
-
-                                            .section2 h2,
-                                            .section3 h2,
-                                            .section4 h2 {
-                                                font-size: 1.75rem;
-                                            }
-
-                                            .section2 p,
-                                            .section3 p,
-                                            .section4 p {
-                                                width: 90%;
-                                                font-size: 14px;
-                                            }
-
-                                            .nomsContainer {
-                                                gap: 1.5rem;
-                                            }
-
-                                            .nomCard {
-                                                width: 120px;
-                                                height: 120px;
-                                            }
-
-                                            .nomCard h4 {
-                                                font-size: 2.5rem;
-                                            }
-
-                                            .featureCard {
-                                                width: 100%;
-                                                max-width: 300px;
-                                            }
-
-                                            .imgsContainer {
-                                                flex-direction: column;
-                                                gap: 1.5rem;
-                                            }
-
-                                            .imgsContainer .img {
-                                                width: 100%;
-                                                max-width: 400px;
-                                            }
-
-                                            .section5 {
-                                                padding: 2rem 1.5rem;
-                                            }
-
-                                            .section5 h2 {
-                                                font-size: 1.75rem;
-                                                width: 100%;
-                                            }
-
-                                            .section5 p {
-                                                width: 100%;
-                                            }
-
-                                            .section5 .right {
-                                                height: 250px;
-                                            }
-
-                                            .section6 {
-                                                padding: 2rem 1.5rem;
-                                            }
-
-                                            .section6 h2 {
-                                                font-size: 1.75rem;
-                                            }
-
-                                            .section6 .featuresContainer {
-                                                margin-top: 3rem;
-                                            }
-
-                                            .feature .right h3 {
-                                                font-size: 1.5rem;
-                                            }
-
-                                            .section7 {
-                                                width: 95%;
-                                                padding: 30px 20px;
-                                            }
-
-                                            .section7 h2 {
-                                                font-size: 24px;
-                                                margin-top: 2rem;
-                                            }
-
-                                            .courses {
-                                                padding: 20px 20px;
-                                            }
-
-                                            .section8 {
-                                                width: 95%;
-                                                padding: 0 1rem;
-                                            }
-
-                                            .section8 .left h2 {
-                                                font-size: 24px;
-                                            }
-
-                                            .section9 {
-                                                padding: 0 1rem;
-                                            }
-
-                                            .section9 h2 {
-                                                font-size: 24px;
-                                            }
-
-                                            .section9 .main {
-                                                width: 100%;
-                                            }
-
-                                            .section9 .right .new {
-                                                flex-direction: column;
-                                            }
-
-                                            .section9 .right img {
-                                                width: 100%;
-                                                height: 200px;
-                                            }
-                                        }
-
-                                        /* ============================================
-   RESPONSIVE DESIGN - SMALL MOBILE (480px and below)
-   ============================================ */
-
-                                        @media (max-width: 480px) {
-                                            .section1 {
-                                                padding: 1.5rem 1rem;
-                                            }
-
-                                            .section1 .right {
-                                                order: 1;
-                                                margin-bottom: 2rem;
-                                                margin-top: 1rem;
-
-                                                .section1 h3 {
-                                                    font-size: 1.25rem;
-                                                }
-
-                                                .section1 p {
-                                                    font-size: 0.85rem;
-                                                    letter-spacing: 0.5px;
-                                                }
-
-                                                .section1 .left .imgContainer {
-                                                    height: 280px;
-                                                }
-
-                                                .Join {
-                                                    width: 110px;
-                                                    height: 40px;
-                                                    font-size: 14px;
-                                                    margin-right: 0.5rem;
-                                                }
-
-                                                .playIcon {
-                                                    width: 35px;
-                                                    height: 35px;
-                                                }
-
-                                                .section2,
-                                                .section3,
-                                                .section4 {
-                                                    padding: 1.5rem 1rem;
-                                                }
-
-                                                .section2 h2,
-                                                .section3 h2,
-                                                .section4 h2 {
-                                                    font-size: 1.5rem;
-                                                }
-
-                                                .section2 p,
-                                                .section3 p,
-                                                .section4 p {
-                                                    width: 100%;
-                                                    font-size: 13px;
-                                                }
-
-                                                .nomsContainer {
-                                                    gap: 1rem;
-                                                }
-
-                                                .nomCard {
-                                                    width: 100px;
-                                                    height: 100px;
-                                                }
-
-                                                .nomCard h4 {
-                                                    font-size: 2rem;
-                                                }
-
-                                                .nomCard p {
-                                                    font-size: 12px;
-                                                }
-
-                                                .featureCard {
-                                                    padding: 15px;
-                                                    min-height: 280px;
-                                                }
-
-                                                .featureCard h4 {
-                                                    font-size: 1rem;
-                                                }
-
-                                                .featureCard p {
-                                                    font-size: 13px;
-                                                }
-
-                                                .section5 {
-                                                    padding: 1.5rem 1rem;
-                                                }
-
-                                                .section5 h2 {
-                                                    font-size: 1.5rem;
-                                                }
-
-                                                .section5 .right {
-                                                    height: 200px;
-                                                }
-
-                                                .section6 {
-                                                    padding: 1.5rem 1rem;
-                                                }
-
-                                                .section6 h2 {
-                                                    font-size: 1.5rem;
-                                                }
-
-                                                .feature .right h3 {
-                                                    font-size: 1.25rem;
-                                                }
-
-                                                .section7 {
-                                                    padding: 20px 15px;
-                                                }
-
-                                                .section7 h2 {
-                                                    font-size: 20px;
-                                                    margin-top: 1rem;
-                                                }
-
-                                                .courses {
-                                                    padding: 15px 10px;
-                                                    gap: 1rem;
-                                                }
-
-                                                .courseCard {
-                                                    width: 45px;
-                                                    height: 240px;
-                                                }
-
-                                                .courseInner {
-                                                    width: 35px;
-                                                    height: 200px;
-                                                }
-
-                                                .courseInner h3 {
-                                                    font-size: 12px;
-                                                }
-
-                                                .section8 .left h2 {
-                                                    font-size: 20px;
-                                                }
-
-                                                .section8 .left .content p {
-                                                    font-size: 14px;
-                                                }
-
-                                                .section9 h2 {
-                                                    font-size: 20px;
-                                                }
-
-                                                .section9 .main .left .dis {
-                                                    font-size: 18px;
-                                                    width: 100%;
-                                                }
-
-                                                .section9 .main .left p {
-                                                    width: 100%;
-                                                }
-                                            }
-
-                                            /* ============================================
-   RESPONSIVE DESIGN - EXTRA SMALL (360px and below)
-   ============================================ */
-                                            @media (max-width: 360px) {
-                                                .section1 h3 {
-                                                    font-size: 1.1rem;
-                                                }
-
-                                                .section1 p {
-                                                    font-size: 0.8rem;
-                                                }
-
-                                                .Join {
-                                                    width: 100px;
-                                                    height: 38px;
-                                                    font-size: 13px;
-                                                }
-
-                                                .section2 h2,
-                                                .section3 h2,
-                                                .section4 h2,
-                                                .section5 h2,
-                                                .section6 h2 {
-                                                    font-size: 1.25rem;
-                                                }
-
-                                                .nomCard {
-                                                    width: 90px;
-                                                    height: 90px;
-                                                }
-
-                                                .nomCard h4 {
-                                                    font-size: 1.75rem;
-                                                }
-
-                                                .featureCard {
-                                                    padding: 12px;
-                                                }
-
-                                                .section7 h2,
-                                                .section8 .left h2,
-                                                .section9 h2 {
-                                                    font-size: 18px;
-                                                }
-                                            }
-                                        }
+/* ============================================
+GLOBAL STYLES
+============================================ */
+
+.homeContainer {
+    background: #F7F7F7;
+    overflow-x: hidden;
+}
+
+/* ============================================
+SECTION 1 - HERO SECTION
+============================================ */
+
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 4rem;
+    overflow: hidden;
+    background-color: #49BBBD;
+    
+}
+
+.section1 h3 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    max-width: 400px;
+    line-height: 1.5;
+}
+
+.section1 p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    max-width: 350px;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 2;
+    letter-spacing: 1.3px;
+}
+
+.joiningContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.Join {
+    width: 130px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    letter-spacing: 0.7px;
+    transition: all 0.3s ease;
+    background: #00e7cf;
+    border: none;
+    color: #ffffff;
+    margin-right: 2rem;
+}
+
+.Join:hover {
+    background: #f48c06;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+}
+
+.playIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    margin-right: 0.4rem;
+}
+
+.playIcon:hover {
+    background: #f48c06;
+}
+
+.section1 .left {
+    position: relative;
+}
+
+.section1 .left .imgContainer {
+    height: 550px;
+    width: 500px;
+    margin-right: 5rem;
+}
+
+.section1 .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/* Section 1 Cards */
+
+.card1 {
+    background: #ffffff7c;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: absolute;
+    top: 300%;
+    right: 80%;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card1:nth-child(2) {
+    background: #ffffff7c;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    padding: 0px;
+    border-radius: 15px;
+    width: 250px;
+    height: 60px;
+}
+
+.card1 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.card1 .txtContainer {
+    display: flex;
+}
+
+.txtContainer .txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.specail .txtContainer .txt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.specail .txtContainer .txt p {
+    font-size: 10px;
+}
+
+.txtContainer .txt h4 {
+    color: #595959;
+}
+
+.txtContainer .txt p {
+    color: #8c8c8c;
+    margin-top: 0.1rem;
+}
+
+.card1 .JoinNow {
+    margin-top: 0.3rem;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background: #D8587E;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.card1 .JoinNow:hover {
+    background: #892e49;
+}
+
+.iconCard1 {
+    color: #FFF;
+    margin-right: 1rem;
+    display: inline;
+    background-color: #F25471;
+    padding: 4px;
+    font-size: 2.3rem;
+    border-radius: 20%;
+}
+
+.card2 {
+    background: #F25471;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    padding: 20px;
+    border-radius: 15px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #FFFF;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.card2:hover {
+    background: #892e49;
+}
+
+.card3 {
+    background: #f48d06c5;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    border-radius: 15px;
+    width: fit-content;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    transition: all 0.3s ease;
+    padding: 20px;
+}
+
+.card3 .icon {
+    font-size: 40px;
+    color: #FFF;
+}
+
+.card3 .txt {
+    display: flex;
+    flex-direction: column;
+}
+
+.card3 .txt h4 {
+    color: #FFF;
+}
+
+.card3 .txt p {
+    color: #ffffffb8;
+    margin-top: 0.1rem;
+    width: 140px;
+    font-size: 0.9rem;
+}
+
+.card4 {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    border-radius: 15px;
+    width: 140px;
+    height: 140px;
+}
+
+/* ============================================
+SECTION 2 - SUCCESS STATS
+============================================ */
+
+.section2 {
+    padding: 4rem;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 h2 {
+    color: #000000d1;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    width: fit-content;
+    text-align: center;
+    font-weight: 900;
+}
+
+.section2 p {
+    color: #33333387;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    width: 50%;
+    margin-top: 0.4rem;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.nomsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.nomCard {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nomCard h4 {
+    background: linear-gradient(to right, #136CB5, #49BBBD);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.nomCard p {
+    margin-top: 0;
+    color: #000000b9;
+    font-size: 14px;
+    width: fit-content;
+    font-weight: 500;
+}
+
+/* ============================================
+SECTION 3 - FEATURES
+============================================ */
+
+.section3 {
+    padding: 4rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section3 h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    width: fit-content;
+    font-weight: 900;
+    color: #2F327D;
+}
+
+.section3 p {
+    color: #33333387;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    width: 50%;
+    margin-top: 0.4rem;
+    line-height: 1.8;
+}
+
+.featuresContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.featureCard {
+    background: #FFFFFF;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 250px;
+    min-height: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.featureCard:hover {
+    box-shadow: rgba(99, 99, 99, 0.4) 0px 4px 16px 0px;
+    transform: translateY(-5px);
+}
+
+.featureCard .iconContainer {
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+    background-color: #5B72EE;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.featureCard:nth-child(1) .iconContainer {
+    background-color: #49BBBD;
+}
+
+.featureCard:nth-child(2) .iconContainer {
+    background-color: #F48C06;
+}
+
+.featureCard:nth-child(3) .iconContainer {
+    background-color: #5B72EE;
+}
+
+.featureCard h4 {
+    color: #2F327D;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.featureCard p {
+    color: #696984;
+    font-size: 14px;
+    line-height: 1.6;
+    width: fit-content;
+}
+
+/* ============================================
+SECTION 4 - WHAT IS LEARNOVA
+============================================ */
+
+.section4 {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section4 h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    width: fit-content;
+    font-weight: 900;
+    color: #2F327D;
+}
+
+.section4 p {
+    color: #33333387;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    width: 70%;
+    margin-top: 0.4rem;
+    line-height: 1.8;
+}
+
+.imgsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.imgsContainer .img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imgsContainer .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.imgsContainer .img h5 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.imgsContainer .img button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #49bbbdac;
+    border: none;
+    color: #FFF;
+    width: 150px;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.imgsContainer .img button:hover {
+    background: #f48c06;
+}
+
+.imgsContainer .img:hover img {
+    transform: scale(1.1);
+}
+
+/* ============================================
+SECTION 5 - EVERYTHING YOU CAN DO
+============================================ */
+
+.section5 {
+    padding: 4rem;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.section5 .left {
+    flex: 1;
+    max-width: 600px;
+}
+
+.section5 h2 {
+    font-size: 2rem;
+    margin-bottom: 1.6rem;
+    width: fit-content;
+    font-weight: 900;
+    color: #2F327D;
+    text-align: left;
+}
+
+.section5 p {
+    color: #33333387;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    width: 80%;
+    margin-top: 0.4rem;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.section5 .learnMore {
+    color: #49BBBD;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.section5 .right {
+    width: 800px;
+    height: 300px;
+    position: relative;
+    z-index: 2;
+    flex-shrink: 0;
+}
+
+.section5 .right::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+    background-color: #23BDEE;
+}
+
+.section5 .right::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    bottom: -20px;
+    right: -20px;
+    z-index: -1;
+    background-color: #33EFA0;
+}
+
+.section5 .right img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* ============================================
+SECTION 6 - OUR FEATURES
+============================================ */
+
+.section6 {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section6 h2 {
+    font-size: 2rem;
+    margin-bottom: 0.6rem;
+    width: fit-content;
+    font-weight: 900;
+    color: #2F327D;
+}
+
+.section6 p {
+    color: #33333387;
+    font-size: 14px;
+    margin-bottom: 0.6rem;
+    width: 100%;
+    margin-top: 0.4rem;
+    line-height: 1.8;
+}
+
+.section6 .featuresContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 8rem;
+    gap: 1.7rem;
+    flex-wrap: wrap;
+}
+
+.feature {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.feature:nth-child(1) .left {
+    width: 700px;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 3rem;
+    flex-shrink: 0;
+}
+
+.feature .left {
+    flex-shrink: 0;
+}
+
+.feature .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.feature .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex: 1;
+}
+
+.feature .right h3 {
+    color: #2F327D;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.feature .right .featuresContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    color: #33333387;
+}
+
+.feature .right .featuresContainer div {
+    max-width: 400px;
+    text-align: left;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.feature .right .featuresContainer div span {
+    font-size: 30px;
+    color: #2F327D;
+    border-radius: 50%;
+    background-color: #ebebeb;
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(99, 99, 99, 0.469) 0px 2px 8px 0px;
+    flex-shrink: 0;
+}
+
+.feature .right .featuresContainer div:nth-child(2) span {
+    color: #49BBBD;
+}
+
+.feature .right .featuresContainer div:nth-child(3) span {
+    color: #F48C06;
+}
+
+.feature:nth-child(2) .left img {
+    width: 400px;
+    border-radius: 10px;
+    height: 250px;
+}
+
+.feature:nth-child(2) .featuresContainer div {
+    max-width: 500px;
+    line-height: 1.7;
+}
+
+.feature:nth-child(3) .left img {
+    width: 600px;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.feature:nth-child(3) h3 {
+    max-width: 300px;
+    line-height: 1.7;
+}
+
+.feature:nth-child(4) .left img {
+    width: 600px;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.feature:nth-child(4) h3 {
+    max-width: 300px;
+    line-height: 1.7;
+}
+
+.feature:nth-child(4) .featuresContainer div {
+    max-width: 400px;
+    line-height: 1.7;
+}
+
+.feature:nth-child(5) .left img {
+    width: 600px;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.feature:nth-child(5) h3 {
+    max-width: 300px;
+    line-height: 1.7;
+}
+
+.feature:nth-child(5) .featuresContainer div {
+    max-width: 400px;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+.section6 .featuresContainer .seeMore {
+    color: #49BBBD;
+    font-weight: 200;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 2rem;
+    padding: 10px 25px;
+    border: 1px solid #49BBBD;
+    background-color: #FFF;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.section6 .featuresContainer .seeMore:hover {
+    background-color: #49BBBD;
+    color: #FFF;
+}
+
+/* ============================================
+SECTION 7 - EXPLORE COURSE
+============================================ */
+
+.section7 {
+    background: #00bbd43f;
+    padding: 60px;
+    width: 80%;
+    /* margin: 0 auto; */
+}
+
+.section7 h2 {
+    font-size: 28px;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.section7 p {
+    color: #777;
+    margin-bottom: 5rem;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.courses {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    padding: 20px 60px;
+    justify-content: start;
+    scroll-behavior: smooth;
+}
+
+.courses::-webkit-scrollbar {
+    display: none;
+}
+
+.courseCard {
+    width: 50px;
+    height: 260px;
+    background: #e6f7c9;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-10deg);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition-duration: 0.3s;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.courseInner {
+    width: 40px;
+    height: 220px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courseInner h3 {
+    color: #fff;
+    font-size: 14px;
+    writing-mode: vertical-lr;
+    text-align: center;
+}
+
+.courseCard:hover {
+    transform: rotate(0deg) scale(1.05);
+}
+
+.section7 .icon {
+    display: flex;
+    gap: 0.2rem;
+    font-size: 1.3rem;
+    height: 40px;
+    align-items: center;
+}
+
+.section7 .icon p {
+    font-size: 1rem;
+    color: black;
+    margin: 0;
+}
+
+.section7 .icon div {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* ============================================
+SECTION 8 - TESTIMONIALS
+============================================ */
+
+.section8 {
+    width: 70%;
+    gap: 2rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+    min-height: 100vh;
+    margin-bottom: 2rem;
+}
+
+.section8 .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #525596;
+    gap: 2rem;
+    width: 45%;
+}
+
+.section8 .left p {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.section8 .left h2 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #2F327D;
+}
+
+.section8 .left .content {
+    color: #696984;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.section8 .left .content p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.section8 .btn-testimonial {
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid #49BBBD;
+    color: #49BBBD;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: fit-content;
+    padding: 0px 0px 0px 20px;
+    font-weight: 100;
+}
+
+.section8 .btn-testimonial .icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #49BBBD;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section8 .btn-testimonial:hover {
+    background-color: #49BBBD;
+    color: #fff;
+}
+
+.section8 .btn-testimonial:hover .icon {
+    border-color: #fff;
+}
+
+.section8 .right {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin-right: 3rem;
+    flex-shrink: 0;
+}
+
+.section8 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonial-card {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    background: #fff;
+    padding: 30px 35px;
+    width: 450px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+}
+
+.testimonial-card::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 8px;
+    height: 100%;
+    background: linear-gradient(to bottom, #ff7a59, #49bbbd);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.testimonial-card .quote {
+    color: #696984;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card-footer h4 {
+    color: #2f327d;
+    font-weight: 600;
+}
+
+.rating {
+    text-align: right;
+}
+
+.stars {
+    color: #f9b233;
+    font-size: 18px;
+}
+
+.rating span {
+    font-size: 13px;
+    color: #696984;
+}
+
+/* ============================================
+SECTION 9 - NEWS AND RESOURCES
+============================================ */
+
+.section9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 0 2rem;
+}
+
+.section9 h2 {
+    color: #2F327D;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.section9 p {
+    color: #696984;
+    font-weight: 200;
+    text-align: center;
+}
+
+.section9 .main {
+    display: flex;
+    margin-top: 3rem;
+    width: 85%;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.section9 .main .left {
+    flex: 1;
+    max-width: 500px;
+}
+
+.section9 .main .left .imgContainer {
+    width: 100%;
+    height: 300px;
+}
+
+.section9 .main .left .imgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section9 .main .left .news {
+    padding: 10px 30px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #49BBBD;
+    color: #FFFF;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.section9 .main .left .news:hover {
+    background: #389091;
+}
+
+.section9 .main .left .dis {
+    color: #252641;
+    font-weight: 600;
+    width: 80%;
+    margin-bottom: 1rem;
+    font-size: 22px;
+}
+
+.section9 .main .left p {
+    width: 70%;
+    line-height: 1.5;
+    font-size: 14px;
+    text-align: left;
+}
+
+.section9 .main .left .read {
+    all: unset;
+    background-color: transparent;
+    width: fit-content;
+    height: fit-content;
+    color: #696984;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.section9 .right {
+    display: flex;
+    gap: 1.7rem;
+    flex-direction: column;
+    flex: 1;
+    max-width: 500px;
+}
+
+.section9 .right .new {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.section9 .right img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.section9 .right .new .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section9 .right .new .dis {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #252641;
+    font-size: 16px;
+}
+
+.section9 .right p {
+    font-size: 14px;
+    text-align: left;
+}
+
+/* ============================================
+RESPONSIVE DESIGN - TABLET (1024px and below)
+============================================ */
+
+@media (max-width: 1024px) {
+    .section1 {
+        padding: 3rem 2rem;
+        min-height: 500px;
+    }
+
+    .section1 h3 {
+        font-size: 1.75rem;
+        max-width: 100%;
+    }
+
+    .section1 p {
+        max-width: 100%;
+    }
+
+    .section1 .left .imgContainer {
+        width: 400px;
+        height: 450px;
+        margin-right: 2rem;
+    }
+
+    .card1 {
+        width: 250px;
+        height: 120px;
+        padding: 15px;
+    }
+
+    .card1:nth-child(2) {
+        width: 200px;
+    }
+
+    .card4 {
+        width: 100px;
+        height: 100px;
+        left: 5%;
+    }
+
+    .card4 Lottie {
+        width: 100px;
+        height: 100px;
+    }
+
+    .section2,
+    .section3,
+    .section4 {
+        padding: 3rem 2rem;
+    }
+
+    .section2 p,
+    .section3 p {
+        width: 70%;
+    }
+
+    .section5 {
+        padding: 3rem 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section5 .left {
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .section5 .right {
+        width: 100%;
+        max-width: 800px;
+    }
+
+    .section6 {
+        padding: 3rem 2rem;
+    }
+
+    .feature {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .feature:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    .feature .left,
+    .feature:nth-child(1) .left,
+    .feature:nth-child(2) .left img,
+    .feature:nth-child(3) .left img,
+    .feature:nth-child(4) .left img,
+    .feature:nth-child(5) .left img {
+        width: 100%;
+        max-width: 600px;
+        margin-right: 0;
+    }
+
+    .feature .right {
+        align-items: center;
+        text-align: center;
+    }
+
+    .feature .right h3 {
+        text-align: center;
+    }
+
+    .feature .right .featuresContainer div {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .section7 {
+        width: 90%;
+        padding: 40px 30px;
+    }
+
+    .section8 {
+        width: 85%;
+        flex-direction: column;
+        align-items: center;
+        min-height: auto;
+    }
+
+    .section8 .left {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section8 .left .content {
+        width: 100%;
+        align-items: center;
+    }
+
+    .section8 .right {
+        width: 100%;
+        max-width: 400px;
+        margin-right: 0;
+    }
+
+    .testimonial-card {
+        display: none;
+    }
+
+    .section9 .main {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section9 .main .left,
+    .section9 .main .right {
+        max-width: 100%;
+    }
+}
+
+/* ============================================
+RESPONSIVE DESIGN - MOBILE (768px and below)
+============================================ */
+
+@media (max-width: 768px) {
+    .section1 {
+        flex-direction: column;
+        padding: 2rem 1.5rem;
+        min-height: auto;
+        text-align: center;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .section1 .right {
+        order: 1;
+        margin-bottom: 2rem;
+    }
+
+    .section1 .left {
+        order: 2;
+        width: 100%;
+    }
+
+    .section1 .left .imgContainer {
+        width: 100%;
+        max-width: 400px;
+        height: 350px;
+        margin: 0 auto;
+    }
+
+    .section1 h3 {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .section1 p {
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .joiningContainer {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .Join {
+        margin-right: 1rem;
+    }
+
+    /* Hide floating cards on mobile */
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        display: none;
+    }
+
+    .section2,
+    .section3,
+    .section4 {
+        padding: 2rem 1.5rem;
+    }
+
+    .section2 h2,
+    .section3 h2,
+    .section4 h2 {
+        font-size: 1.75rem;
+    }
+
+    .section2 p,
+    .section3 p,
+    .section4 p {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .nomsContainer {
+        gap: 1.5rem;
+    }
+
+    .nomCard {
+        width: 120px;
+        height: 120px;
+    }
+
+    .nomCard h4 {
+        font-size: 2.5rem;
+    }
+
+    .featureCard {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .imgsContainer {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .imgsContainer .img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .section5 {
+        padding: 2rem 1.5rem;
+    }
+
+    .section5 h2 {
+        font-size: 1.75rem;
+        width: 100%;
+    }
+
+    .section5 p {
+        width: 100%;
+    }
+
+    .section5 .right {
+        height: 250px;
+    }
+
+    .section6 {
+        padding: 2rem 1.5rem;
+    }
+
+    .section6 h2 {
+        font-size: 1.75rem;
+    }
+
+    .section6 .featuresContainer {
+        margin-top: 3rem;
+    }
+
+    .feature .right h3 {
+        font-size: 1.5rem;
+    }
+
+    .section7 {
+        width: 95%;
+        padding: 30px 20px;
+    }
+
+    .section7 h2 {
+        font-size: 24px;
+        margin-top: 2rem;
+    }
+
+    .courses {
+        padding: 20px 20px;
+    }
+
+    .section8 {
+        width: 95%;
+        padding: 0 1rem;
+    }
+
+    .section8 .left h2 {
+        font-size: 24px;
+    }
+
+    .section9 {
+        padding: 0 1rem;
+    }
+
+    .section9 h2 {
+        font-size: 24px;
+    }
+
+    .section9 .main {
+        width: 100%;
+    }
+
+    .section9 .right .new {
+        flex-direction: column;
+    }
+
+    .section9 .right img {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+/* ============================================
+RESPONSIVE DESIGN - SMALL MOBILE (480px and below)
+============================================ */
+
+@media (max-width: 480px) {
+    .section1 {
+        padding: 1.5rem 1rem;
+    }
+
+    .section1 .right {
+        order: 1;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+
+        .section1 h3 {
+            font-size: 1.25rem;
+        }
+
+        .section1 p {
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+        }
+
+        .section1 .left .imgContainer {
+            height: 280px;
+        }
+
+        .Join {
+            width: 110px;
+            height: 40px;
+            font-size: 14px;
+            margin-right: 0.5rem;
+        }
+
+        .playIcon {
+            width: 35px;
+            height: 35px;
+        }
+
+        .section2,
+        .section3,
+        .section4 {
+            padding: 1.5rem 1rem;
+        }
+
+        .section2 h2,
+        .section3 h2,
+        .section4 h2 {
+            font-size: 1.5rem;
+        }
+
+        .section2 p,
+        .section3 p,
+        .section4 p {
+            width: 100%;
+            font-size: 13px;
+        }
+
+        .nomsContainer {
+            gap: 1rem;
+        }
+
+        .nomCard {
+            width: 100px;
+            height: 100px;
+        }
+
+        .nomCard h4 {
+            font-size: 2rem;
+        }
+
+        .nomCard p {
+            font-size: 12px;
+        }
+
+        .featureCard {
+            padding: 15px;
+            min-height: 280px;
+        }
+
+        .featureCard h4 {
+            font-size: 1rem;
+        }
+
+        .featureCard p {
+            font-size: 13px;
+        }
+
+        .section5 {
+            padding: 1.5rem 1rem;
+        }
+
+        .section5 h2 {
+            font-size: 1.5rem;
+        }
+
+        .section5 .right {
+            height: 200px;
+        }
+
+        .section6 {
+            padding: 1.5rem 1rem;
+        }
+
+        .section6 h2 {
+            font-size: 1.5rem;
+        }
+
+        .feature .right h3 {
+            font-size: 1.25rem;
+        }
+
+        .section7 {
+            padding: 20px 15px;
+        }
+
+        .section7 h2 {
+            font-size: 20px;
+            margin-top: 1rem;
+        }
+
+        .courses {
+            padding: 15px 10px;
+            gap: 1rem;
+        }
+
+        .courseCard {
+            width: 45px;
+            height: 240px;
+        }
+
+        .courseInner {
+            width: 35px;
+            height: 200px;
+        }
+
+        .courseInner h3 {
+            font-size: 12px;
+        }
+
+        .section8 .left h2 {
+            font-size: 20px;
+        }
+
+        .section8 .left .content p {
+            font-size: 14px;
+        }
+
+        .section9 h2 {
+            font-size: 20px;
+        }
+
+        .section9 .main .left .dis {
+            font-size: 18px;
+            width: 100%;
+        }
+
+        .section9 .main .left p {
+            width: 100%;
+        }
+    }
+
+    /* ============================================
+RESPONSIVE DESIGN - EXTRA SMALL (360px and below)
+============================================ */
+    @media (max-width: 360px) {
+        .section1 h3 {
+            font-size: 1.1rem;
+        }
+
+        .section1 p {
+            font-size: 0.8rem;
+        }
+
+        .Join {
+            width: 100px;
+            height: 38px;
+            font-size: 13px;
+        }
+
+        .section2 h2,
+        .section3 h2,
+        .section4 h2,
+        .section5 h2,
+        .section6 h2 {
+            font-size: 1.25rem;
+        }
+
+        .nomCard {
+            width: 90px;
+            height: 90px;
+        }
+
+        .nomCard h4 {
+            font-size: 1.75rem;
+        }
+
+        .featureCard {
+            padding: 12px;
+        }
+
+        .section7 h2,
+        .section8 .left h2,
+        .section9 h2 {
+            font-size: 18px;
+        }
+    }
+}

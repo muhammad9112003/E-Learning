@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
+import user from "../../assets/user.jpg"
 
 const Nav = ({ bgColor = "#252641" }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -42,7 +43,10 @@ const Nav = ({ bgColor = "#252641" }) => {
                      (bgColor && bgColor.toLowerCase().includes("white"));
 
   return (
-    <nav className={`navbar ${isLightBg ? "light-nav" : ""}`} style={{ backgroundColor: bgColor }}>
+    <nav
+      className={`navbar ${isLightBg ? "light-nav" : ""}`}
+      style={{ backgroundColor: bgColor }}
+    >
       <div className="logo">
         <img src="/logo.png" alt="Logo" />
       </div>
@@ -60,38 +64,50 @@ const Nav = ({ bgColor = "#252641" }) => {
 
       <div className={`nav-right ${isMobileMenuOpen ? "mobile-open" : ""}`}>
         <ul className="nav-links">
-          <Link className="link" to='/'>Home</Link>
+          <Link className="link" to="/">
+            Home
+          </Link>
           <li onClick={closeMobileMenu}>Courses</li>
           <li onClick={closeMobileMenu}>Careers</li>
-          <Link className="link" to='/blog' onClick={closeMobileMenu}>Blog</Link>
+          <Link className="link" to="/blog" onClick={closeMobileMenu}>
+            Blog
+          </Link>
           <li onClick={closeMobileMenu}>About Us</li>
         </ul>
 
         {isLightBg ? (
           <div className="nav-profile" ref={profileRef}>
             <div className="profile-container" onClick={toggleProfile}>
-              <img 
-                src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=400" 
-                alt="User avatar" 
-                className="profile-avatar"
-              />
+              <img src={user} alt="User avatar" className="profile-avatar" />
               <span className="profile-name">Lina</span>
-              <svg 
+              <svg
                 className={`profile-dropdown ${isProfileOpen ? "open" : ""}`}
-                width="12" 
-                height="8" 
-                viewBox="0 0 12 8" 
-                fill="none" 
+                width="12"
+                height="8"
+                viewBox="0 0 12 8"
+                fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path d="M1 1L6 6L11 1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path
+                  d="M1 1L6 6L11 1"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
               </svg>
             </div>
             {isProfileOpen && (
               <div className="profile-dropdown-menu">
-                <Link to="/logIn" onClick={closeMobileMenu}>Profile</Link>
-                <Link to="/logIn" onClick={closeMobileMenu}>Settings</Link>
-                <Link to="/logIn" onClick={closeMobileMenu}>Logout</Link>
+                <Link to="/logIn" onClick={closeMobileMenu}>
+                  Profile
+                </Link>
+                <Link to="/logIn" onClick={closeMobileMenu}>
+                  Settings
+                </Link>
+                <Link to="/logIn" onClick={closeMobileMenu}>
+                  Logout
+                </Link>
               </div>
             )}
           </div>
