@@ -106,8 +106,10 @@ const Home = () => {
           </p>
           <div className="joiningContainer">
             <button className="Join">Join for free</button>
+            <div className="video">
             <BsFillPlayCircleFill className="playIcon" />
             <span style={{ color: "#0000009c" }}>Watch how it works</span>
+            </div>
           </div>
         </div>
         <div className="left">
