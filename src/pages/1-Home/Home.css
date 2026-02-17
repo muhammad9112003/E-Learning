@@ -1184,6 +1184,12 @@ RESPONSIVE DESIGN - TABLET (1024px and below)
     .section1 {
         padding: 3rem 2rem;
         min-height: 500px;
+        flex-direction: column;
+        margin: auto;
+        gap: 20px;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
     }
 
     .section1 h3 {
