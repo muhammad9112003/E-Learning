@@ -67,7 +67,9 @@ const Nav = ({ bgColor = "#252641" }) => {
           <Link className="link" to="/">
             Home
           </Link>
-          <li onClick={closeMobileMenu}>Courses</li>
+          <Link to="courses" className="link" onClick={closeMobileMenu}>
+            Courses
+          </Link>
           <li onClick={closeMobileMenu}>Careers</li>
           <Link className="link" to="/blog" onClick={closeMobileMenu}>
             Blog
