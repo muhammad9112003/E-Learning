@@ -61,7 +61,6 @@ SECTION 1 - HERO SECTION
     color: #ffffff;
     margin-right: 2rem;
 }
-
 .Join:hover {
     background: #f48c06;
 }
@@ -989,7 +988,7 @@ SECTION 8 - TESTIMONIALS
     object-fit: cover;
 }
 
-.testimonial-card {
+.section8  .testimonial-card {
     position: absolute;
     top: 70%;
     left: 20%;
@@ -1000,7 +999,7 @@ SECTION 8 - TESTIMONIALS
     border-radius: 5px;
 }
 
-.testimonial-card::before {
+.section8  .testimonial-card::before {
     content: "";
     position: absolute;
     left: 0px;
@@ -1012,7 +1011,7 @@ SECTION 8 - TESTIMONIALS
     border-bottom-left-radius: 5px;
 }
 
-.testimonial-card .quote {
+.section8  .testimonial-card .quote {
     color: #696984;
     font-size: 16px;
     line-height: 1.8;
@@ -1323,7 +1322,7 @@ RESPONSIVE DESIGN - TABLET (1024px and below)
         margin-right: 0;
     }
 
-    .testimonial-card {
+    .section8 .testimonial-card {
         display: none;
     }
 

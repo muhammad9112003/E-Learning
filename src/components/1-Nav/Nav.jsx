@@ -47,9 +47,9 @@ const Nav = ({ bgColor = "#252641" }) => {
       className={`navbar ${isLightBg ? "light-nav" : ""}`}
       style={{ backgroundColor: bgColor }}
     >
-      <div className="logo">
+      <Link to="/" className="logo" >
         <img src="/logo.png" alt="Logo" />
-      </div>
+      </Link>
 
       {/* Hamburger Menu Button */}
       <button
@@ -67,14 +67,18 @@ const Nav = ({ bgColor = "#252641" }) => {
           <Link className="link" to="/">
             Home
           </Link>
-          <Link to="courses" className="link" onClick={closeMobileMenu}>
+          <Link to="/courses" className="link" onClick={closeMobileMenu}>
             Courses
           </Link>
-          <li onClick={closeMobileMenu}>Careers</li>
+          <Link className="link" to="/careers" onClick={closeMobileMenu}>
+            Careers
+          </Link>
           <Link className="link" to="/blog" onClick={closeMobileMenu}>
             Blog
           </Link>
-          <li onClick={closeMobileMenu}>About Us</li>
+          <Link className="link" to="/about" onClick={closeMobileMenu}>
+            About Us
+          </Link>
         </ul>
 
         {isLightBg ? (
