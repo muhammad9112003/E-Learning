@@ -12,7 +12,7 @@
 /* ----- Hero - Cinematic ----- */
 .careers-hero {
   position: relative;
-  min-height: 80vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -635,7 +635,36 @@
     padding: 28px 24px;
   }
 }
-
+.hero-stat-num {
+  display: block;
+  font-size: 19px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 3px;
+}
+    .hero-stats-row {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 32px;
+      bottom: 7px;
+    }
+        .careers-hero-text {
+          font-size: 1.15rem;
+          line-height: 1.8;
+          color: rgba(255, 255, 255, 0.75);
+          margin: 0 0 14px;
+        }
+     .job-card-creative::before {
+       content: "";
+       position: absolute;
+       left: 0;
+       top: 0;
+       bottom: 0;
+       width: 6px;
+       background: var(--dept-color, linear-gradient(180deg, #49BBBD, #20C997));
+       border-radius: 24px 0 0 24px;
+       height: 95%;
+       margin: auto; }
 @media (max-width: 480px) {
   .career-hero-btn {
     width: 100%;
