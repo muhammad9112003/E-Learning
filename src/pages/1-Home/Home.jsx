@@ -34,6 +34,10 @@ import img15 from "../../assets/img15.png";
 import img16 from "../../assets/img16.png";
 import Lottie from "lottie-react";
 import readingAnimation from "../../assets/animation/Reading.json";
+import { motion } from "framer-motion";
+import userImg from "../../assets/user.jpg";
+import { FaBookmark } from "react-icons/fa";
+import { FaBookReader } from "react-icons/fa";
 
 const Home = () => {
   const [numbers, setNumbers] = useState([
@@ -90,6 +94,56 @@ const Home = () => {
       dis: "This year, investors have reaped big financial returns from betting on Zoom...",
     },
   ]);
+  const [activeCourseId, setActiveCourseId] = useState(null);
+  const renderCourseCard = (course, courseId) => {
+    const isExpanded = activeCourseId === courseId;
+
+    return (
+      <motion.div
+        className={`courseCard ${isExpanded ? "expanded" : ""}`}
+        key={courseId}
+        layout
+        transition={{
+          layout: { duration: 0.5, type: "spring" },
+        }}
+        onClick={() => setActiveCourseId(isExpanded ? null : courseId)}
+      >
+        <motion.div
+          className="courseInner"
+          style={{ backgroundColor: course.bgc }}
+          layout
+        >
+          {isExpanded ? (
+            <div className="courseExpandedContent">
+              <div className="courseImageCircle">
+                <FaBookReader style={{ width: "100%", height: "100%" }} />
+              </div>
+              <div className="courseDetails">
+                <h3>{course.title}</h3>
+                <p>
+                  Cras convallis lacus orci, tristique tincidunt magna fringilla
+                  at faucibus vel.
+                </p>
+                <div className="courseMeta">
+                  <div className="stars">
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                  </div>
+                  <span className="coursePrice">$ 450</span>
+                </div>
+                <button className="courseExploreBtn">EXPLORE</button>
+              </div>
+            </div>
+          ) : (
+            <h3>{course.title}</h3>
+          )}
+        </motion.div>
+      </motion.div>
+    );
+  };
 
   return (
     <div className="homeContainer">
@@ -345,16 +399,9 @@ const Home = () => {
           <p>Lorem Ipsum</p>
         </div>
         <div className="courses">
-          {courses.map((course, index) => (
-            <div className="courseCard" key={index}>
-              <div
-                className="courseInner"
-                style={{ backgroundColor: course.bgc }}
-              >
-                <h3>{course.title}</h3>
-              </div>
-            </div>
-          ))}
+          {courses.map((course, index) =>
+            renderCourseCard(course, `row1-${index}`)
+          )}
         </div>
         <div className="icon" style={{ marginTop: "3rem" }}>
           <div>
@@ -363,16 +410,9 @@ const Home = () => {
           <p>Quisque a Consequat</p>
         </div>
         <div className="courses">
-          {courses.map((course, index) => (
-            <div className="courseCard" key={index}>
-              <div
-                className="courseInner"
-                style={{ backgroundColor: course.bgc }}
-              >
-                <h3>{course.title}</h3>
-              </div>
-            </div>
-          ))}
+          {courses.map((course, index) =>
+            renderCourseCard(course, `row2-${index}`)
+          )}
         </div>
         <div className="icon" style={{ marginTop: "3rem" }}>
           <div>
@@ -381,16 +421,9 @@ const Home = () => {
           <p>Aenean Facilisis</p>
         </div>
         <div className="courses">
-          {courses.map((course, index) => (
-            <div className="courseCard" key={index}>
-              <div
-                className="courseInner"
-                style={{ backgroundColor: course.bgc }}
-              >
-                <h3>{course.title}</h3>
-              </div>
-            </div>
-          ))}
+          {courses.map((course, index) =>
+            renderCourseCard(course, `row3-${index}`)
+          )}
         </div>
       </div>
       <div className="section8">

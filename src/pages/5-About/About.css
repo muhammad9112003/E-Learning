@@ -372,6 +372,7 @@
     background: linear-gradient(180deg, #49BBBD, rgba(73, 187, 189, 0.3));
     border-radius: 2px;
     z-index: 0;
+    display: none;
 }
 
 .timeline-item {
@@ -1209,9 +1210,11 @@
         .timeline-line {
             display: none;
         }
-                  .about-hero {
-                      padding: 32px 16px 70px;
-                      height: 100vh;}
+
+        .about-hero {
+            padding: 32px 16px 70px;
+            height: 100vh;
+        }
 
     }
 }
