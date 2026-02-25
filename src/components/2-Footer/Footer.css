@@ -121,3 +121,13 @@
     background-color: #626381;
     margin: 0;
 }
+@media (width<= 780px) {
+    .footer {
+
+        padding: 3rem;
+    }
+        .privacy .first {
+            width: 200%;
+
+        }
+}

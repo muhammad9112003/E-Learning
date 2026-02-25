@@ -161,14 +161,18 @@ const Home = () => {
           <div className="joiningContainer">
             <button className="Join">Join for free</button>
             <div className="video">
-            <BsFillPlayCircleFill className="playIcon" />
-            <span style={{ color: "#0000009c" }}>Watch how it works</span>
+              <BsFillPlayCircleFill className="playIcon" />
+              <span style={{ color: "#0000009c" }}>Watch how it works</span>
             </div>
           </div>
         </div>
         <div className="left">
           <div className="imgContainer">
-            <img src={img1} alt="img1" className="img1" />
+            <Lottie
+              className="main"
+              animationData={readingAnimation}
+              loop={true}
+            />
           </div>
           <div className="card1 specail">
             <div className="txtContainer">
@@ -192,10 +196,6 @@ const Home = () => {
               <h4>250k</h4>
               <p>Assisted Student</p>
             </div>
-          </div>
-          <div className="card4">
-            <Lottie animationData={readingAnimation} loop={true} />
-
           </div>
 
         </div>
@@ -400,7 +400,7 @@ const Home = () => {
         </div>
         <div className="courses">
           {courses.map((course, index) =>
-            renderCourseCard(course, `row1-${index}`)
+            renderCourseCard(course, `row1-${index}`),
           )}
         </div>
         <div className="icon" style={{ marginTop: "3rem" }}>
@@ -411,7 +411,7 @@ const Home = () => {
         </div>
         <div className="courses">
           {courses.map((course, index) =>
-            renderCourseCard(course, `row2-${index}`)
+            renderCourseCard(course, `row2-${index}`),
           )}
         </div>
         <div className="icon" style={{ marginTop: "3rem" }}>
@@ -422,7 +422,7 @@ const Home = () => {
         </div>
         <div className="courses">
           {courses.map((course, index) =>
-            renderCourseCard(course, `row3-${index}`)
+            renderCourseCard(course, `row3-${index}`),
           )}
         </div>
       </div>
