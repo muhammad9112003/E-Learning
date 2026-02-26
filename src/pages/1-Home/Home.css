@@ -1671,6 +1671,7 @@ RESPONSIVE DESIGN - MOBILE (768px and below)
                        justify-content: space-between;
                        align-items: center;
                        gap: 20px;
+                       height: min-content;
                    }
 }
 
