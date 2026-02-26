@@ -1673,6 +1673,12 @@ RESPONSIVE DESIGN - MOBILE (768px and below)
                        gap: 20px;
                        height: 700px;
                    }
+                                         .section1 .left .imgContainer {
+                                             width: 80%;
+                                             max-width: 395px;
+                                             height: 250px;
+                                             margin: 0 auto;
+                                         }
 }
 
 
