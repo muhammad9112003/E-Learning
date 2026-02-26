@@ -1518,6 +1518,14 @@ RESPONSIVE DESIGN - MOBILE (768px and below)
         display: none;
     }
 
+    .section1 {
+        padding: 1.5rem 1rem;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+        height: 100vh;
+    }
+
     .section2,
     .section3,
     .section4 {
@@ -1542,8 +1550,9 @@ RESPONSIVE DESIGN - MOBILE (768px and below)
         max-width: 395px;
         height: 195px;
         margin: 0 auto;
-    
-}
+
+    }
+
     .nomsContainer {
         gap: 1.5rem;
     }
