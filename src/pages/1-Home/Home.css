@@ -1856,6 +1856,12 @@ RESPONSIVE DESIGN - SMALL MOBILE (480px and below)
             overflow: hidden;
             flex-shrink: 0;
         }
+                  .section1 {
+                      padding: 1.5rem 1rem;
+                      justify-content: space-between;
+                      align-items: center;
+                      gap: 70px;
+                  }
     }
 
     /* ============================================
