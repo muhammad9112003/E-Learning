@@ -1684,7 +1684,7 @@ RESPONSIVE DESIGN - SMALL MOBILE (480px and below)
         padding: 1.5rem 1rem;
         justify-content: space-between;
         align-items: center;
-        gap: 60px;
+        gap: 0px;
     }
 
     .section1 .right {
