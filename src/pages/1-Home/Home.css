@@ -1668,7 +1668,7 @@ RESPONSIVE DESIGN - MOBILE (768px and below)
     }
                    .section1 {
                        padding: 1.5rem 1rem;
-                       justify-content: center;
+                    justify-content: space-evenly;
                        align-items: center;
                        gap: 20px;
                        height: 700px;
@@ -1683,7 +1683,7 @@ RESPONSIVE DESIGN - SMALL MOBILE (480px and below)
 @media (max-width: 480px) {
     .section1 {
         padding: 1.5rem 1rem;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         gap: 0px;
     }
