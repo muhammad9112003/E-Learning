@@ -1682,9 +1682,9 @@ RESPONSIVE DESIGN - SMALL MOBILE (480px and below)
 @media (max-width: 480px) {
     .section1 {
         padding: 1.5rem 1rem;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        gap: 70px;
+        gap: 100px;
     }
 
     .section1 .right {
